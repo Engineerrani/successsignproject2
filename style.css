@@ -1,0 +1,35 @@
+.border-shape::before {
+    background: #162764 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    right: -4px;
+    position: absolute;
+    top: 1px;
+    width: 20px;
+}
+
+.border-shape::after {
+    background: #162764 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 1px;
+    width: 65px;
+}
+
+.border-shape {
+    color: #fff;
+    display: block;
+    height: 3px;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 86px;
+}
